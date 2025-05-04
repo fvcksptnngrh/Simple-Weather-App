@@ -1,0 +1,151 @@
+/* src/App.css */
+body {
+  font-family: sans-serif;
+  background-color: #f0f8ff; /* Light blue background */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  margin: 0;
+  padding-top: 50px;
+}
+
+.App {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 25px;
+}
+
+.input-area {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.input-area input[type="text"] {
+  padding: 12px 15px;
+  border: 1px solid #bdc3c7;
+  border-radius: 6px;
+  font-size: 1em;
+  flex-grow: 1;
+  max-width: 300px;
+}
+
+.input-area button {
+  padding: 12px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.input-area button:hover:not(:disabled) {
+  background-color: #2980b9;
+}
+
+.input-area button:disabled {
+  background-color: #a5c9e3;
+  cursor: not-allowed;
+}
+
+.error-text {
+  color: #e74c3c;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.weather-info {
+  margin-top: 30px;
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left; /* Pastikan teks rata kiri */
+}
+
+.weather-info h2 {
+  text-align: center; /* Judul kota boleh di tengah */
+  margin-bottom: 15px;
+  color: #34495e;
+  font-size: 1.8em;
+}
+
+.weather-details {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Tengahkan ikon dan suhu utama */
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.weather-details img {
+  width: 80px;
+  height: 80px;
+}
+
+.weather-details .temperature {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #2c3e50;
+  margin: 0;
+}
+
+.weather-details .description {
+  font-size: 1.2em;
+  color: #7f8c8d;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.extra-details {
+  margin-top: 20px;
+  font-size: 0.95em;
+  color: #34495e;
+  line-height: 1.6;
+}
+
+.extra-details p {
+  margin: 5px 0;
+}
+
+/* Styling untuk Preview Forecast */
+.forecast-preview {
+  margin-top: 20px;
+  text-align: left;
+  border: 1px solid #eee;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f8f9fa; /* Latar sedikit beda */
+}
+
+.forecast-preview h3 {
+   color: #34495e;
+   margin-bottom: 10px;
+   text-align: center;
+}
+
+.forecast-preview p {
+  color: #333333; /* Warna teks agar terbaca */
+  margin-bottom: 8px;
+  font-size: 0.95em;
+  border-bottom: 1px dashed #eee;
+  padding-bottom: 5px;
+}
+
+.forecast-preview p:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
