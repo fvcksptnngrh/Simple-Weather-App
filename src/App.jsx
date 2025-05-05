@@ -75,7 +75,7 @@ function App() {
   // JSX Tampilan
   return (
     <div className="App"> {/* Menggunakan class App dari App.css */}
-      <h1>Aplikasi Cuaca (React - Dasar)</h1>
+      <h1>Weather App</h1>
       <div className="input-area"> {/* Menggunakan class input-area dari App.css */}
         <input
           type="text"
