@@ -115,7 +115,7 @@ function App() {
   const [showFavorites, setShowFavorites] = useState(false);
   const [searchSuggestions, setSearchSuggestions] = useState([]);
 
-  const API_KEY = '339da1d9ef3fd8a933f3d9d1a6b00d08';
+  const API_KEY = import.meta.env.VITE_OPENWEATHER_API_KEY;
 
   // Load favorites from localStorage
   useEffect(() => {
