@@ -156,7 +156,7 @@ function App() {
 
   // Toggle dark mode
   useEffect(() => {
-    document.body.classList.toggle('dark-mode', darkMode);
+    document.documentElement.classList.toggle('dark-mode', darkMode);
   }, [darkMode]);
 
   const fetchWeatherByCoords = async (lat, lon) => {
@@ -286,7 +286,7 @@ function App() {
 
   return (
     <ErrorBoundary>
-      <div className={`App ${darkMode ? 'dark-mode' : ''}`}>
+      <div className={`App`}>
         {(loading) && <LoadingSpinner message="Loading weather data..." />}
         
         {/* Header */}
@@ -297,7 +297,7 @@ function App() {
           transition={{ duration: 0.5 }}
         >
           <div className="header-left">
-            <h1>WeatherFlow</h1>
+            <h1>WeatherBebe</h1>
             <p className="subtitle">Simple & Beautiful Weather</p>
           </div>
           <div className="header-controls">
