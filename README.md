@@ -1,4 +1,4 @@
-# WeatherFlow - Modern Weather App
+# WeatherBebe - Modern Weather App
 
 A beautiful, minimalist weather application built with React that provides real-time weather information with a focus on user experience and modern design.
 
