@@ -9,7 +9,7 @@ A beautiful, minimalist weather application built with React that provides real-
 - **⭐ Favorites System** - Save and quickly access your favorite cities
 - **🌙 Dark/Light Mode** - Toggle between dark and light themes
 - **🌡️ Unit Conversion** - Switch between Celsius and Fahrenheit
-- **📅 5-Day Forecast** - View detailed weather predictions
+- **📅 5 Day Forecast** - View detailed weather predictions
 - **📱 Responsive Design** - Works perfectly on desktop, tablet, and mobile
 - **⚡ Smooth Animations** - Beautiful transitions and micro-interactions
 - **🎨 Modern UI** - Clean, minimalist design with excellent UX
